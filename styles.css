@@ -1,0 +1,109 @@
+/* students registration box */
+
+.stdmainbx {
+    margin: 2pc auto;
+    width: 70%;
+    
+}
+
+.stdmaintitle {
+    padding: .5pc 0pc;
+    font-size: 2rem;
+}
+
+.stdmainin {
+    background-color: var(--color-gray-05);
+    border-radius: .4pc;
+}
+
+.stdmainintitle {
+    padding: .5pc;
+    font-size: 1.5rem;
+}
+
+.stdgdatabx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 20pc;
+    padding: .5pc;
+}
+
+.stdaside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5pc;
+}
+
+.sflex {
+    height: 3pc;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1pc;
+}
+
+.sflexinp {
+    height: 2.5pc;
+    outline: none;
+    width: 60%;
+}
+
+.studentProfile {
+    display: flex;
+    gap: 1pc;
+}
+
+#changeProfile {
+    height: 2.5pc;
+    width: 8pc;
+    border: none;
+}
+
+.stdImg {
+    height: 10pc;
+    width: 10pc;
+    border-radius: 100%;
+}
+
+
+.stdActbtns {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.stdActbtnsIn {
+    padding: .5pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1pc;
+}
+
+.stdinfobtn {
+    height: 2.5pc;
+    width: 8pc;
+    border: none;
+}
+
+.notif {
+    padding: .5pc;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+}
+
+
+/* php styles*/
+
+.tlogerbx {
+    margin: 5pc auto;
+    width: auto;
+    padding: 1pc;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    z-index: 20;
+}
